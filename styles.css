@@ -1,0 +1,82 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .iphone-container {
+    background-color: #000000;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    margin: 5vh auto;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+  }
+  
+  .top-bar {
+    background-color: #fffb00;
+    height: 5vh;
+    width: 100%;
+  }
+  
+  .player {
+    background-color: #313131;
+    border-radius: 25px 25px 0 0;
+    bottom: 0;
+    height: 40vh;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .keyboard {
+    background-color: #000000;
+    border-radius: 0 0 25px 25px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .key {
+    background-color: #1a1717;
+    border: 1px solid #dfc800;
+    border-radius: 50%;
+    color: #e6d600;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    user-select: none;
+    width: 50px;
+  }
+  
+  .home-indicator {
+    background-color: #ebd300;
+    bottom: 0;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  #audioTime {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #audioLegend {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
